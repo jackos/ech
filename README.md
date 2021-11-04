@@ -5,9 +5,13 @@
 cargo install ech
 ```
 Downloads and installs `ech` from `crates.io`
-```ech 8000```
+```bash
+ech 8000
+```
 Runs ech on port 8000
-```ech```
+```bash
+ech
+```
 Chooses a random available port to run on
 
 ## Use
