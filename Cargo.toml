@@ -1,0 +1,14 @@
+[package]
+name = "echo-http"
+version = "0.0.1"
+authors = ["Jack Clayton"]
+description = "Take in a tcp / http request and return the raw request in the body and log to console. No dependencies"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/jackos/echo-http"
+documentation = "https://docs.rs/echo-http/"
+edition = "2021"
+
+[[bin]]
+name = "echo-http"
+path = "src/main.rs"
