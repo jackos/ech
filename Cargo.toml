@@ -1,6 +1,6 @@
 [package]
 name = "ech"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["Jack Clayton"]
 description = "Take in a TCP / HTTP request and return the raw request in the body, and log to stdout. No dependencies"
 license = "MIT"

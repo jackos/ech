@@ -1,18 +1,18 @@
 # ech
 
 ## Quickstart
+Download and install `ech` from `crates.io`
 ```bash
 cargo install ech
 ```
-Downloads and installs `ech` from `crates.io`
+Runs ech on port 8000
 ```bash
 ech 8000
 ```
-Runs ech on port 8000
+Choose a random available port to run on
 ```bash
 ech
 ```
-Chooses a random available port to run on
 
 ## Use
 Simply returns any request back to the caller with a `HTTP/1.1 200 OK` response code and logs it to `stdout`, giving the full raw TCP stream as text.
