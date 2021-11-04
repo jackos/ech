@@ -1,14 +1,14 @@
 [package]
-name = "echo-http"
+name = "ech"
 version = "0.0.1"
 authors = ["Jack Clayton"]
-description = "Take in a tcp / http request and return the raw request in the body and log to console. No dependencies"
+description = "Take in a TCP / HTTP request and return the raw request in the body, and log to stdout. No dependencies"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/jackos/echo-http"
-documentation = "https://docs.rs/echo-http/"
+repository = "https://github.com/jackos/ech"
+documentation = "https://docs.rs/ech/"
 edition = "2021"
 
 [[bin]]
-name = "echo-http"
+name = "ech"
 path = "src/main.rs"
